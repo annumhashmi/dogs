@@ -1,0 +1,155 @@
+body { 
+background-color:pink;
+}
+
+	h1 { 
+		color:white;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:43px;
+	}
+
+  h2 { 
+		color:white;
+    text-align:center;
+    font-family:sans-serif;
+	}
+
+
+  p {
+    color:white;
+    text-align:left;
+    font-family:sans-serif;
+    font-size:20px;
+  }
+
+  mark {
+    color:white;
+    text-align:left;
+    font-family:sans-serif;
+    font-size:20px;
+  }
+
+  a {
+    color:white;
+    text-align:left;
+    font-family:sans-serif;
+    font-size:20px;
+  }
+
+  ul {
+    color:white;
+    text-align:left;
+    font-family:sans-serif;
+    font-size:25px;
+  }
+
+  i {
+    color:white;
+    text-align:left;
+    font-family:sans-serif;
+    font-size:20px;
+  }
+
+  b {
+    color:white;
+    text-align:left;
+    font-family:sans-serif;
+    font-size:20px;
+  }
+
+  del {
+    color:white;
+    text-align:left;
+    font-family:sans-serif;
+    font-size:20px;
+  }
+
+
+  .pic {
+    text-align: center;
+    color:white;
+    font-family:sans-serif;
+    font-size:23px;
+  }
+
+  .bone {
+    text-align: right;
+  }
+
+  .breeds {
+    color:white;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:20px;
+  }
+  
+  .vids {
+    text-align:center;
+  }
+  
+  /* .column {
+    float: left;
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Add a background color to the top navigation */
+.navbar {
+  background-color: white;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px; (Top/Bottom, Right/Left)
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: lightgray;
+  color: white;
+}
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: lightgray;
+  color: white;
+}
+
+button {
+ background-color: #4CAF50;
+ border: none;
+ color: white;
+ padding: 15px 26px;
+ text-align: center;
+ display: inline-block;
+ font-size: 20px;
+ border-radius: 4px;
+ transition-duration: .4s;
+}
+
+button:hover {
+ background-color: pink;
+ color: white;
+ border: 1px solid white;
+}
+
